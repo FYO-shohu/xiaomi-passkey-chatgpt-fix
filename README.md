@@ -78,7 +78,7 @@ Windows 双击：
 或命令行：
 
 ~~~powershell
-cd /d E:\HyperPassKey
+cd /d 你的项目目录
 node xiaomi-passkey-fix.mjs
 ~~~
 
@@ -172,6 +172,7 @@ adb shell "cat /proc/net/unix | grep devtools"
 ~~~text
 .
 ├── 一键修复小米通行密钥.cmd
+├── run.cmd
 ├── xiaomi-passkey-fix.mjs
 ├── 小米通行密钥-ChatGPT登录修复操作.md
 ├── package.json
