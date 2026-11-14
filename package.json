@@ -1,0 +1,30 @@
+{
+  "name": "xiaomi-passkey-chatgpt-fix",
+  "version": "1.0.0",
+  "description": "Temporary root-free workaround for Xiaomi HyperOS passkey login failures on ChatGPT",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "check": "node --check xiaomi-passkey-fix.mjs",
+    "test": "node --check xiaomi-passkey-fix.mjs"
+  },
+  "keywords": [
+    "xiaomi",
+    "hyperos",
+    "passkey",
+    "webauthn",
+    "chatgpt",
+    "credential-manager"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FYO-shohu/xiaomi-passkey-chatgpt-fix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FYO-shohu/xiaomi-passkey-chatgpt-fix/issues"
+  },
+  "homepage": "https://github.com/FYO-shohu/xiaomi-passkey-chatgpt-fix#readme"
+}
